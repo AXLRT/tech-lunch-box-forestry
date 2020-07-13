@@ -87,6 +87,13 @@
             "title": "Hello, World",
             "summary": "For a moment she wondered how she had happened to wake so early.",
             "date_modified": "2020-01-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2020/07/13/test-post/",
+            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2020/07/13/test-post/",
+            "title": "Test Post",
+            "summary": "テスト投稿",
+            "date_modified": "2020-07-13T15:00:00.000Z"
         }
     ]
 }
