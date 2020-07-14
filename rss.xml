@@ -4,7 +4,7 @@
         <title>tech lunch box</title>
         <link>https://github.com/wowthemesnet/vuepress-theme-mediumish/</link>
         <description>Mediumish theme with VuePress and Forestry</description>
-        <lastBuildDate>Mon, 13 Jul 2020 17:20:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2020 13:54:50 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.atom" rel="self" type="application/rss+xml"/>
@@ -69,6 +69,8 @@
             <guid>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/05/06/writing-a-vuepress-theme/</guid>
             <pubDate>Mon, 06 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Mediumish is the best VuePress theme Medium styled.]]></description>
+            <enclosure url="https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/lunchbox-logo.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[Welcome to Mediumish]]></title>
