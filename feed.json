@@ -3,7 +3,6 @@
     "title": "tech lunch box",
     "home_page_url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/",
     "feed_url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.json",
-    "description": "Mediumish theme with VuePress and Forestry",
     "items": [
         {
             "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2018/11/07/frontmatter-in-vuepress-3/",
