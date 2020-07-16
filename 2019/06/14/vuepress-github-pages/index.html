@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vuepressで作った静的サイトをGithub pagesで公開するまで | tech lunch box</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+    <link rel="sttylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c">
+    <link rel="alternate" type="application/rss+xml" href="https://github.com/wowthemesnet/vuepress-theme-mediumish/rss.xml" title="tech lunch box RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.atom" title="tech lunch box Atom Feed">
+    <link rel="alternate" type="application/json" href="https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.json" title="tech lunch box JSON Feed">
+    <meta name="description" content="
+このページで分かること
+
+1からvuepressの導入する方法・基本的な使い方
+Github pagesで静的サイトを公開する方法
+
+前提条件
+
+nodejsを導入する
+githubにリポジトリを用意する
+
+vuepressを導入する
+
+1. 以下のコマンドを実行
+
+gitclone
+git clone [リポジトリのurl]
+
+p ...">
+    <link rel="preload" href="/assets/css/0.styles.97196ee3.css" as="style"><link rel="preload" href="/assets/js/app.0fb34c48.js" as="script"><link rel="preload" href="/assets/js/7.94036c50.js" as="script"><link rel="preload" href="/assets/js/3.26290062.js" as="script"><link rel="preload" href="/assets/js/18.ddae2805.js" as="script"><link rel="preload" href="/assets/js/5.cc5dbc83.js" as="script"><link rel="preload" href="/assets/js/8.56372e87.js" as="script"><link rel="prefetch" href="/assets/js/10.86236d06.js"><link rel="prefetch" href="/assets/js/11.af5453dc.js"><link rel="prefetch" href="/assets/js/12.3ac52e18.js"><link rel="prefetch" href="/assets/js/13.8b724e1c.js"><link rel="prefetch" href="/assets/js/14.d89f31eb.js"><link rel="prefetch" href="/assets/js/15.5d3f807b.js"><link rel="prefetch" href="/assets/js/16.de6a51b5.js"><link rel="prefetch" href="/assets/js/17.dbda7c8f.js"><link rel="prefetch" href="/assets/js/19.3348571a.js"><link rel="prefetch" href="/assets/js/4.bafb388b.js"><link rel="prefetch" href="/assets/js/6.6d5add75.js"><link rel="prefetch" href="/assets/js/9.d10da170.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.9d500996.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.97196ee3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><nav class="navbar navbar-expand-md navbar-light bg-white fixed-top"><div class="container"><a href="/" class="navbar-brand"><img src="/assets/img/lunchbox-logo.png"> <span class="site-title">tech lunch box</span></a> <button type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button> <div id="navbarsExampleDefault" class="collapse navbar-collapse"><ul class="navbar-nav ml-auto"><li class="nav-item"><a href="/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tags</a></li> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <a href="./rss.xml" class="feed"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></ul></div></div></nav></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="mobile-home-link navbar-brand"><img src="/assets/img/lunchbox-logo.png"> tech lunch box </a> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/">Blog</a></li><li class="mobile-nav-item"><a href="/tag/">Tags</a></li> <li class="mobile-nav-item"><a href="./rss.xml" class="feed"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></li></ul></div></div></div> <div class="container wrapmain"><div id="vuepress-theme-blog__post-layout" data-v-0b0ea084><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content" data-v-0b0ea084><div class="row justify-content-center" data-v-0b0ea084><div class="col-md-8" data-v-0b0ea084><header data-v-0b0ea084><span class="text-muted" data-v-0b0ea084><div class="post-meta" data-v-0b0ea084><!----> <div class="post-meta-date"><time pubdate itemprop="datePublished" datetime="2019-06-14 15:00:00 +0000">
+Fri, Jun 14 2019
+</time></div> <!----></div></span> <h1 itemprop="name headline" class="article-head mt-3" data-v-0b0ea084>
+            vuepressで作った静的サイトをGithub pagesで公開するまで
+          </h1> <p class="lead" data-v-0b0ea084>
+このページで分かること
+
+1からvuepressの導入する方法・基本的な使い方
+Github pagesで静的サイトを公開する方法
+
+前提条件
+
+nodejsを導入する
+githubにリポジトリを用意する
+
+vuepressを導入する
+
+1. 以下のコマンドを実行
+
+gitclone
+git clone [リポジトリのurl]
+
+p ...</p></header></div></div> <div class="row justify-content-center text-center mt-4 mb-40" data-v-0b0ea084><div class="col-md-9" data-v-0b0ea084><img src="" class="featuredimg" data-v-0b0ea084></div></div> <div class="row justify-content-center" data-v-0b0ea084><div class="col-md-8" data-v-0b0ea084><div itemprop="articleBody" class="content__default" data-v-0b0ea084><h1 id="vuepressで作った静的サイトをgithub-pagesで公開するまで"><a href="#vuepressで作った静的サイトをgithub-pagesで公開するまで" class="header-anchor">#</a> vuepressで作った静的サイトをGithub pagesで公開するまで</h1> <h2 id="このページで分かること"><a href="#このページで分かること" class="header-anchor">#</a> このページで分かること</h2> <ul><li>1からvuepressの導入する方法・基本的な使い方</li> <li>Github pagesで静的サイトを公開する方法</li></ul> <h2 id="前提条件"><a href="#前提条件" class="header-anchor">#</a> 前提条件</h2> <ul><li>nodejsを導入する</li> <li>githubにリポジトリを用意する</li></ul> <h2 id="vuepressを導入する"><a href="#vuepressを導入する" class="header-anchor">#</a> vuepressを導入する</h2> <h3 id="_1-以下のコマンドを実行"><a href="#_1-以下のコマンドを実行" class="header-anchor">#</a> 1. 以下のコマンドを実行</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token comment"># gitclone</span>
+<span class="token function">git</span> clone <span class="token punctuation">[</span>リポジトリのurl<span class="token punctuation">]</span>
+
+<span class="token comment"># package.json作成</span>
+<span class="token function">npm</span> init
+
+<span class="token comment"># vuepressインストール</span>
+<span class="token function">npm</span> <span class="token function">install</span> -D vuepress
+
+<span class="token comment"># 設定ファイルを格納するディレクトリ作成</span>
+<span class="token function">mkdir</span> .vuepress
+</code></pre></div><h3 id="_2-ページを作成する"><a href="#_2-ページを作成する" class="header-anchor">#</a> 2. ページを作成する</h3> <p>プロジェクトルートに<code>index.md</code>を作成する。
+index.md</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token title important"><span class="token punctuation">#</span> Hello Vuepress!</span>
+Top page.
+</code></pre></div><h3 id="_3-package-json編集"><a href="#_3-package-json編集" class="header-anchor">#</a> 3. package.json編集</h3> <p><code>package.json</code>の<code>scripts</code>に以下の記述を追加する</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress dev src&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build src&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><h3 id="_4-vuepress設定ファイル作成"><a href="#_4-vuepress設定ファイル作成" class="header-anchor">#</a> 4. vuepress設定ファイル作成</h3> <p><code>.vuepress/</code>に<code>config.js</code>を作成し、以下の設定を記述する。</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// サイト名</span>
+    title<span class="token operator">:</span> <span class="token string">&quot;Vuepress introduction&quot;</span><span class="token punctuation">,</span>
+    
+    <span class="token comment">// githubのリポジトリ名を指定する。カスタムドメインを使う場合は不要。</span>
+    base<span class="token operator">:</span> <span class="token string">'/vuepress-introduction'</span><span class="token punctuation">,</span>
+    
+    <span class="token comment">// markdown: {</span>
+    <span class="token comment">//   // ソースコードに行数を表示する。</span>
+    <span class="token comment">//   lineNumbers: true</span>
+    <span class="token comment">// }</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_5-動作確認"><a href="#_5-動作確認" class="header-anchor">#</a> 5. 動作確認</h3> <p><code>npm run dev</code>を実行して<a href="http://localhost:8080/vuepress-introduction" target="_blank" rel="noopener noreferrer">http://localhost:8080/vuepress-introduction<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>を開き、ページが表示されることを確認する。</p> <p>完了。ここまででcommit &amp; pushしておく。</p> <h2 id="github-pagesの設定-サイト公開"><a href="#github-pagesの設定-サイト公開" class="header-anchor">#</a> Github pagesの設定 ~ サイト公開</h2> <h3 id="_1-gh-pagesリポジトリを作成する"><a href="#_1-gh-pagesリポジトリを作成する" class="header-anchor">#</a> 1. gh-pagesリポジトリを作成する</h3> <p><img src="/assets/img/vuepress-introduction-1.png" alt=""></p> <h3 id="_2-リポジトリの設定を変更する"><a href="#_2-リポジトリの設定を変更する" class="header-anchor">#</a> 2. リポジトリの設定を変更する</h3> <p>githubリポジトリの設定ページでsourceを<code>gh-pages branch</code>にする。
+<img src="/assets/img/vuepress-introduction-2.png" alt=""></p> <h3 id="_3-ビルドしてgh-pagesリポジトリにpushする"><a href="#_3-ビルドしてgh-pagesリポジトリにpushする" class="header-anchor">#</a> 3. ビルドしてgh-pagesリポジトリにpushする</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> run build
+
+<span class="token builtin class-name">cd</span> .vuepress/dist
+
+<span class="token function">git</span> init
+<span class="token function">git</span> <span class="token function">add</span> -A
+<span class="token function">git</span> commit -m <span class="token string">'deploy'</span>
+<span class="token function">git</span> push -f git@github.com:qnaiv/vuepress-introduction.git master:gh-pages
+
+<span class="token builtin class-name">cd</span> <span class="token punctuation">..</span>/<span class="token punctuation">..</span>
+</code></pre></div><h2 id="完了"><a href="#完了" class="header-anchor">#</a> 完了</h2> <p>https://<code>ユーザ名</code>.github.io/<code>リポジトリ名</code>/でページが表示される。</p> <p><a href="https://qnaiv.github.io/vuepress-introduction/" target="_blank" rel="noopener noreferrer">https://qnaiv.github.io/vuepress-introduction/<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="今回のソース"><a href="#今回のソース" class="header-anchor">#</a> 今回のソース</h2> <p><a href="https://github.com/qnaiv/vuepress-introduction" target="_blank" rel="noopener noreferrer">https://github.com/qnaiv/vuepress-introduction<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <div class="post-meta" data-v-0b0ea084><!----> <!----> <div itemprop="keywords" class="card-subheading post-meta-tags"><a href="/tag/vuepress" data-v-43160e8a> vuepress </a><a href="/tag/github pages" data-v-43160e8a> github pages </a></div></div></div></div></article> <div class="row justify-content-center" data-v-0b0ea084><div class="col-md-9" data-v-0b0ea084><form class="newsletter" data-v-0b0ea084><div class="newsletter__wrap"><div class="newsletter__title">Newsletter</div> <div class="newsletter__content">Subscribe to get my latest content. No spam.</div> <div class="newsletter__fields"><input type="email" name="email" aria-label="Email" placeholder="Email" required="required" autocapitalize="off" autocorrect="off" data-cy="email" value="" class="newsletter__input"> <button type="submit" data-cy="submit" class="newsletter__button">
+        Subscribe
+      </button></div></div></form> <!----></div></div> <div class="sticker vuepress-toc" data-v-0b0ea084><div class="vuepress-toc-item vuepress-toc-h2 active"><a href="#このページで分かること" title="このページで分かること">このページで分かること</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#前提条件" title="前提条件">前提条件</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#vuepressを導入する" title="vuepressを導入する">vuepressを導入する</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_1-以下のコマンドを実行" title="1. 以下のコマンドを実行">1. 以下のコマンドを実行</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_2-ページを作成する" title="2. ページを作成する">2. ページを作成する</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_3-package-json編集" title="3. package.json編集">3. package.json編集</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_4-vuepress設定ファイル作成" title="4. vuepress設定ファイル作成">4. vuepress設定ファイル作成</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_5-動作確認" title="5. 動作確認">5. 動作確認</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#github-pagesの設定-サイト公開" title="Github pagesの設定 \~ サイト公開">Github pagesの設定 \~ サイト公開</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_1-gh-pagesリポジトリを作成する" title="1. gh-pagesリポジトリを作成する">1. gh-pagesリポジトリを作成する</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_2-リポジトリの設定を変更する" title="2. リポジトリの設定を変更する">2. リポジトリの設定を変更する</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#_3-ビルドしてgh-pagesリポジトリにpushする" title="3. ビルドしてgh-pagesリポジトリにpushする">3. ビルドしてgh-pagesリポジトリにpushする</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#完了" title="完了">完了</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#今回のソース" title="今回のソース">今回のソース</a></div></div></div></div> <footer class="themefooter"><div class="container"><div class="row justify-content-between"><div class="col"><a href="/"><img src="/assets/img/lunchbox-logo.png" class="logofooter"></a></div> <div class="col text-right"><ul class="list-unstyled"><li class="contact-item"><a href="https://github.com/wowthemesnet/mediumish-vuepress-blog-theme" target="_blank" rel="noopener noreferrer" class="external"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+
+</a></li></ul> <ul class="list-unstyled"><li class="copyright-item"><a href="https://bootstrapstarter.com/license/" target="_blank" rel="noopener noreferrer" class="external">Licensed MIT.</a></li><li class="copyright-item"><a href="https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/" target="_blank" rel="noopener noreferrer" class="external">Made with Mediumish - free Vuepress theme</a></li></ul></div></div></div></footer></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.0fb34c48.js" defer></script><script src="/assets/js/7.94036c50.js" defer></script><script src="/assets/js/3.26290062.js" defer></script><script src="/assets/js/18.ddae2805.js" defer></script><script src="/assets/js/5.cc5dbc83.js" defer></script><script src="/assets/js/8.56372e87.js" defer></script>
+  </body>
+</html>
