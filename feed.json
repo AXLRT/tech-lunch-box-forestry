@@ -1,38 +1,38 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "tech lunch box",
-    "home_page_url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/",
-    "feed_url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.json",
+    "home_page_url": "https://lunchbox.qnv.pw/",
+    "feed_url": "https://lunchbox.qnv.pw/feed.json",
     "items": [
         {
-            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/17/git-author-commiter/",
-            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/17/git-author-commiter/",
-            "title": "gitで過去コミットのauthorとcommiterを変更する",
-            "summary": "githubにコミットしたらPC名出ちゃったときの話。",
-            "date_modified": "2019-06-17T15:00:00.000Z"
-        },
-        {
-            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/",
-            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/",
+            "id": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
+            "url": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
             "title": "Githubで自分のリポジトリをforkする",
             "summary": "自分のリポジトリを複製して新しいリポジトリを作る方法",
-            "image": "https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/fork-own-repo-1.png",
+            "image": "https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png",
             "date_modified": "2019-06-14T16:00:00.000Z"
         },
         {
-            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/07/11/spring-boot/",
-            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/07/11/spring-boot/",
+            "id": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
+            "url": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "title": "Spring bootでイベントハンドリングを実装する",
             "summary": "spring bootの@EventListnerについて。",
             "date_modified": "2019-07-11T15:00:00.000Z"
         },
         {
-            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/",
-            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/",
+            "id": "https://lunchbox.qnv.pw/2019/06/14/vuepress-github-pages/",
+            "url": "https://lunchbox.qnv.pw/2019/06/14/vuepress-github-pages/",
             "title": "vuepressで作った静的サイトをGithub pagesで公開するまで",
             "summary": "vuepress + github pages。自動デプロイについては別記事。",
-            "image": "https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/vuepress-introduction-1.png",
+            "image": "https://lunchbox.qnv.pw/assets/img/vuepress-introduction-1.png",
             "date_modified": "2019-06-14T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "title": "gitで過去コミットのauthorとcommiterを変更する",
+            "summary": "githubにコミットしたらPC名出ちゃったときの話。",
+            "date_modified": "2019-06-17T15:00:00.000Z"
         }
     ]
 }
