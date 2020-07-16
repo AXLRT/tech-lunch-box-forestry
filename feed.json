@@ -5,6 +5,13 @@
     "feed_url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.json",
     "items": [
         {
+            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/17/git-author-commiter/",
+            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/17/git-author-commiter/",
+            "title": "gitで過去コミットのauthorとcommiterを変更する",
+            "summary": "githubにコミットしたらPC名出ちゃったときの話。",
+            "date_modified": "2019-06-17T15:00:00.000Z"
+        },
+        {
             "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/",
             "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/",
             "title": "Githubで自分のリポジトリをforkする",
@@ -13,17 +20,10 @@
             "date_modified": "2019-06-14T16:00:00.000Z"
         },
         {
-            "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/17/git-author-commiter/",
-            "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/17/git-author-commiter/",
-            "title": "gitで過去コミットのauthorとcommiterを変更する",
-            "summary": "GitのAuthor, Comitterの設定を初期設定のまま使うと、PC名になってしまう。\n（そのため、意図せずAuthorが本名でコミットされたりする。)\nここでは後からAuthorやComitterを変える方法を記す。\nこのページで分かること\n過去のコミットのAuthorとcomitterを変更する方法\nコミットする際に適用されるcommiterを変更する方法\n\n過去の ...",
-            "date_modified": "2019-06-17T15:00:00.000Z"
-        },
-        {
             "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/",
             "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/",
             "title": "vuepressで作った静的サイトをGithub pagesで公開するまで",
-            "summary": "1からvuepressの導入する方法・基本的な使い方  Github pagesで静的サイトを公開する方法",
+            "summary": "vuepress + github pages。自動デプロイについては別記事。",
             "image": "https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/vuepress-introduction-1.png",
             "date_modified": "2019-06-14T15:00:00.000Z"
         }
