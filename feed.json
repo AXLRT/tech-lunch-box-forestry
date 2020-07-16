@@ -23,7 +23,7 @@
             "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/07/11/spring-boot/",
             "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/07/11/spring-boot/",
             "title": "Spring bootでイベントハンドリングを実装する",
-            "summary": "Spring Bootのイベントハンドリング機能を使うと手軽にpublisher-subscriberモデルを実装できる。\n\n今回作るサンプル\n[https://github.com/qnaiv/spring-event-handling](https://github.com/qnaiv/spring-event-handling\n)\n\nTODOが作成されたらお知らせする。\n ...",
+            "summary": "spring bootの@EventListnerについて。",
             "date_modified": "2019-07-11T15:00:00.000Z"
         },
         {

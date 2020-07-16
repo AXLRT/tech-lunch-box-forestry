@@ -4,7 +4,7 @@
         <title>tech lunch box</title>
         <link>https://github.com/wowthemesnet/vuepress-theme-mediumish/</link>
         <description></description>
-        <lastBuildDate>Thu, 16 Jul 2020 13:58:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2020 14:03:08 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.atom" rel="self" type="application/rss+xml"/>
@@ -29,14 +29,7 @@
             <link>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/07/11/spring-boot/</link>
             <guid>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/07/11/spring-boot/</guid>
             <pubDate>Thu, 11 Jul 2019 15:00:00 GMT</pubDate>
-            <description><![CDATA[Spring Bootのイベントハンドリング機能を使うと手軽にpublisher-subscriberモデルを実装できる。
-
-今回作るサンプル
-[https://github.com/qnaiv/spring-event-handling](https://github.com/qnaiv/spring-event-handling
-)
-
-TODOが作成されたらお知らせする。
- ...]]></description>
+            <description><![CDATA[spring bootの@EventListnerについて。]]></description>
         </item>
         <item>
             <title><![CDATA[vuepressで作った静的サイトをGithub pagesで公開するまで]]></title>
