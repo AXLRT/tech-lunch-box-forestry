@@ -4,7 +4,7 @@
         <title>tech lunch box</title>
         <link>https://github.com/wowthemesnet/vuepress-theme-mediumish/</link>
         <description></description>
-        <lastBuildDate>Thu, 16 Jul 2020 13:01:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2020 13:01:57 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.atom" rel="self" type="application/rss+xml"/>
@@ -13,24 +13,7 @@
             <link>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/</link>
             <guid>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/</guid>
             <pubDate>Fri, 14 Jun 2019 15:00:00 GMT</pubDate>
-            <description><![CDATA[このページで分かること
-
-1からvuepressの導入する方法・基本的な使い方
-Github pagesで静的サイトを公開する方法
-
-前提条件
-
-nodejsを導入する
-githubにリポジトリを用意する
-
-vuepressを導入する
-
-以下のコマンドを実行
-
-gitclone
-git clone [リポジトリのurl]
-
-p ...]]></description>
+            <description><![CDATA[1からvuepressの導入する方法・基本的な使い方  Github pagesで静的サイトを公開する方法]]></description>
             <enclosure url="https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/vuepress-introduction-1.png">
             </enclosure>
         </item>

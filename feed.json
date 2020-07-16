@@ -8,7 +8,7 @@
             "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/",
             "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/",
             "title": "vuepressで作った静的サイトをGithub pagesで公開するまで",
-            "summary": "このページで分かること\n\n1からvuepressの導入する方法・基本的な使い方\nGithub pagesで静的サイトを公開する方法\n\n前提条件\n\nnodejsを導入する\ngithubにリポジトリを用意する\n\nvuepressを導入する\n\n以下のコマンドを実行\n\ngitclone\ngit clone [リポジトリのurl]\n\np ...",
+            "summary": "1からvuepressの導入する方法・基本的な使い方  Github pagesで静的サイトを公開する方法",
             "image": "https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/vuepress-introduction-1.png",
             "date_modified": "2019-06-14T15:00:00.000Z"
         }
