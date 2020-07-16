@@ -2,18 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/wowthemesnet/vuepress-theme-mediumish/</id>
     <title>tech lunch box</title>
-    <updated>2020-07-16T13:27:50.556Z</updated>
+    <updated>2020-07-16T13:30:30.759Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://github.com/wowthemesnet/vuepress-theme-mediumish/"/>
     <link rel="self" href="https://github.com/wowthemesnet/vuepress-theme-mediumish/feed.atom"/>
-    <entry>
-        <title type="html"><![CDATA[vuepressで作った静的サイトをGithub pagesで公開するまで]]></title>
-        <id>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/</id>
-        <link href="https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/">
-        </link>
-        <updated>2019-06-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1からvuepressの導入する方法・基本的な使い方  Github pagesで静的サイトを公開する方法]]></summary>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Githubで自分のリポジトリをforkする]]></title>
         <id>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/</id>
@@ -21,5 +13,13 @@
         </link>
         <updated>2019-06-14T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[自分のリポジトリを複製して新しいリポジトリを作る方法]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vuepressで作った静的サイトをGithub pagesで公開するまで]]></title>
+        <id>https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/</id>
+        <link href="https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/vuepress-github-pages/">
+        </link>
+        <updated>2019-06-14T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1からvuepressの導入する方法・基本的な使い方  Github pagesで静的サイトを公開する方法]]></summary>
     </entry>
 </feed>
