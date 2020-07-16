@@ -8,7 +8,7 @@
             "id": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/",
             "url": "https://github.com/wowthemesnet/vuepress-theme-mediumish/2019/06/14/github-fork/",
             "title": "Githubで自分のリポジトリをforkする",
-            "summary": "このページで分かること\n\n自分のリポジトリを複製して新しいリポジトリを作る方法\n\nやり方\n\nリポジトリを作成する\n\n::: warning\nInitialize this repository with a READMEにチェックを入れないこと\n:::\n\n下のほうの`import co ...",
+            "summary": "自分のリポジトリを複製して新しいリポジトリを作る方法",
             "image": "https://github.com/wowthemesnet/vuepress-theme-mediumish/assets/img/fork-own-repo-1.png",
             "date_modified": "2019-06-14T16:00:00.000Z"
         },
