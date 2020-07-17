@@ -43,6 +43,14 @@
             "date_modified": "2019-07-21T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2020/09/14/vimium-chrome/",
+            "url": "https://lunchbox.qnv.pw/2020/09/14/vimium-chrome/",
+            "title": "Vimium で Chrome をキーボードオンリーで操作する",
+            "summary": "超便利なChrome拡張「vimium」の紹介",
+            "image": "https://lunchbox.qnv.pw/assets/img/vimium_1.png",
+            "date_modified": "2020-09-14T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/06/14/vuepress-github-pages/",
             "url": "https://lunchbox.qnv.pw/2019/06/14/vuepress-github-pages/",
             "title": "vuepressで作った静的サイトをGithub pagesで公開するまで",
