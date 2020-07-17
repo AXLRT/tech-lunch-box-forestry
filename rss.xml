@@ -4,7 +4,7 @@
         <title>tech lunch box</title>
         <link>https://lunchbox.qnv.pw/</link>
         <description></description>
-        <lastBuildDate>Fri, 17 Jul 2020 15:38:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jul 2020 15:39:40 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://lunchbox.qnv.pw/feed.atom" rel="self" type="application/rss+xml"/>
@@ -14,6 +14,15 @@
             <guid>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</guid>
             <pubDate>Mon, 17 Jun 2019 15:00:00 GMT</pubDate>
             <description><![CDATA[githubにコミットしたらPC名出ちゃったときの話。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Githubで自分のリポジトリをforkする]]></title>
+            <link>https://lunchbox.qnv.pw/2019/06/14/github-fork/</link>
+            <guid>https://lunchbox.qnv.pw/2019/06/14/github-fork/</guid>
+            <pubDate>Fri, 14 Jun 2019 16:00:00 GMT</pubDate>
+            <description><![CDATA[自分のリポジトリを複製して新しいリポジトリを作る方法]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[Spring bootでイベントハンドリングを実装する]]></title>
@@ -29,15 +38,6 @@
             <pubDate>Fri, 14 Jun 2019 15:00:00 GMT</pubDate>
             <description><![CDATA[vuepress + github pages。自動デプロイについては別記事。]]></description>
             <enclosure url="https://lunchbox.qnv.pw/assets/img/vuepress-introduction-1.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Githubで自分のリポジトリをforkする]]></title>
-            <link>https://lunchbox.qnv.pw/2019/06/14/github-fork/</link>
-            <guid>https://lunchbox.qnv.pw/2019/06/14/github-fork/</guid>
-            <pubDate>Fri, 14 Jun 2019 16:00:00 GMT</pubDate>
-            <description><![CDATA[自分のリポジトリを複製して新しいリポジトリを作る方法]]></description>
-            <enclosure url="https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png">
             </enclosure>
         </item>
     </channel>

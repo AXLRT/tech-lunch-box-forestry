@@ -12,6 +12,14 @@
             "date_modified": "2019-06-17T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
+            "url": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
+            "title": "Githubで自分のリポジトリをforkする",
+            "summary": "自分のリポジトリを複製して新しいリポジトリを作る方法",
+            "image": "https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png",
+            "date_modified": "2019-06-14T16:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "url": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "title": "Spring bootでイベントハンドリングを実装する",
@@ -25,14 +33,6 @@
             "summary": "vuepress + github pages。自動デプロイについては別記事。",
             "image": "https://lunchbox.qnv.pw/assets/img/vuepress-introduction-1.png",
             "date_modified": "2019-06-14T15:00:00.000Z"
-        },
-        {
-            "id": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
-            "url": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
-            "title": "Githubで自分のリポジトリをforkする",
-            "summary": "自分のリポジトリを複製して新しいリポジトリを作る方法",
-            "image": "https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png",
-            "date_modified": "2019-06-14T16:00:00.000Z"
         }
     ]
 }
