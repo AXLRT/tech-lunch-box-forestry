@@ -12,6 +12,14 @@
             "date_modified": "2019-06-17T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
+            "url": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
+            "title": "git push 時のコミッター名が Github アカウントと一致しない問題",
+            "summary": "Github にgit pushする際、Github のアカウント名義でコミットするのに手間取ったのでメモ。",
+            "image": "https://lunchbox.qnv.pw/assets/img/change-git-committer1.png",
+            "date_modified": "2019-09-15T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
             "url": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
             "title": "Githubで自分のリポジトリを複製する",
