@@ -4,7 +4,7 @@
         <title>tech lunch box</title>
         <link>https://lunchbox.qnv.pw/</link>
         <description></description>
-        <lastBuildDate>Fri, 17 Jul 2020 18:09:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jul 2020 18:09:42 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://lunchbox.qnv.pw/feed.atom" rel="self" type="application/rss+xml"/>
@@ -22,6 +22,15 @@
             <pubDate>Fri, 14 Jun 2019 16:00:00 GMT</pubDate>
             <description><![CDATA[自分のリポジトリを複製して新しいリポジトリを作る方法]]></description>
             <enclosure url="https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[JWT についてまとめ]]></title>
+            <link>https://lunchbox.qnv.pw/2019/09/07/jwt/</link>
+            <guid>https://lunchbox.qnv.pw/2019/09/07/jwt/</guid>
+            <pubDate>Sat, 07 Sep 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[JWTについてわかったことメモ]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/jwt-introduction-1-97138c8a-beae-4774-ac49-d038425739e5.png">
             </enclosure>
         </item>
         <item>

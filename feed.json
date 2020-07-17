@@ -20,6 +20,14 @@
             "date_modified": "2019-06-14T16:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/09/07/jwt/",
+            "url": "https://lunchbox.qnv.pw/2019/09/07/jwt/",
+            "title": "JWT についてまとめ",
+            "summary": "JWTについてわかったことメモ",
+            "image": "https://lunchbox.qnv.pw/assets/img/jwt-introduction-1-97138c8a-beae-4774-ac49-d038425739e5.png",
+            "date_modified": "2019-09-07T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "url": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "title": "Spring bootでイベントハンドリングを実装する",
