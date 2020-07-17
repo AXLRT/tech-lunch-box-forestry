@@ -27,6 +27,14 @@
             "date_modified": "2019-07-11T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/",
+            "url": "https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/",
+            "title": "Travis CIでVuepressの公開を自動化する",
+            "summary": "Travis CIの基礎\nmarkdownファイルをpushされたとき、Vuepressサイトが自動ビルドする手順\n\n前提条件\n\n以下の作業が完了していること\nvuepressで作った静的サイトをGithub pagesで公開するまで\n\nTravis CIとは\n\nGithubのp ...",
+            "image": "https://lunchbox.qnv.pw/assets/img/vuepress-automate-deployment-with-travis-1.png",
+            "date_modified": "2019-07-21T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/06/14/vuepress-github-pages/",
             "url": "https://lunchbox.qnv.pw/2019/06/14/vuepress-github-pages/",
             "title": "vuepressで作った静的サイトをGithub pagesで公開するまで",
