@@ -4,7 +4,7 @@
         <title>tech lunch box</title>
         <link>https://lunchbox.qnv.pw/</link>
         <description></description>
-        <lastBuildDate>Sat, 18 Jul 2020 17:08:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2020 17:09:02 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://lunchbox.qnv.pw/feed.atom" rel="self" type="application/rss+xml"/>
@@ -66,6 +66,13 @@
             <description><![CDATA[超便利なChrome拡張「vimium」の紹介]]></description>
             <enclosure url="https://lunchbox.qnv.pw/assets/img/vimium_1.png">
             </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[VPS をレンタルしたときの初期設定]]></title>
+            <link>https://lunchbox.qnv.pw/2019/10/26/vps/</link>
+            <guid>https://lunchbox.qnv.pw/2019/10/26/vps/</guid>
+            <pubDate>Sat, 26 Oct 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[conoha VPSをレンタルしたときの初期設定をメモ。]]></description>
         </item>
         <item>
             <title><![CDATA[VSCode で Cascadia code を利用する]]></title>
