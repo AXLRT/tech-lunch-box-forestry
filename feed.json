@@ -66,19 +66,19 @@
             "date_modified": "2019-09-14T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/10/26/vps/",
+            "url": "https://lunchbox.qnv.pw/2019/10/26/vps/",
+            "title": "VPS をレンタルしたときの初期設定",
+            "summary": "conoha VPSをレンタルしたときの初期設定をメモ。",
+            "date_modified": "2019-10-26T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/",
             "url": "https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/",
             "title": "VSCode で Cascadia code を利用する",
             "summary": "ターミナルやコードエディタに最適なフォントをVSCodeに導入。",
             "image": "https://lunchbox.qnv.pw/assets/img/cascadia-code-vscode-1.png",
             "date_modified": "2019-09-22T15:00:00.000Z"
-        },
-        {
-            "id": "https://lunchbox.qnv.pw/2019/10/26/vps/",
-            "url": "https://lunchbox.qnv.pw/2019/10/26/vps/",
-            "title": "VPS をレンタルしたときの初期設定",
-            "summary": "conoha VPSをレンタルしたときの初期設定をメモ。",
-            "date_modified": "2019-10-26T15:00:00.000Z"
         },
         {
             "id": "https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/",
