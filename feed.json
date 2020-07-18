@@ -5,6 +5,13 @@
     "feed_url": "https://lunchbox.qnv.pw/feed.json",
     "items": [
         {
+            "id": "https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/",
+            "url": "https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/",
+            "title": "docker-compose を CentOS8 に導入するまで",
+            "summary": "Centos環境にdocker-composeを導入して使い始めるまで。",
+            "date_modified": "2019-10-29T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
             "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
             "title": "gitで過去コミットのauthorとcommiterを変更する",
