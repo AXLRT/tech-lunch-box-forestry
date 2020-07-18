@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lunchbox.qnv.pw/</id>
     <title>tech lunch box</title>
-    <updated>2020-07-18T17:03:43.604Z</updated>
+    <updated>2020-07-18T17:04:24.881Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://lunchbox.qnv.pw/"/>
     <link rel="self" href="https://lunchbox.qnv.pw/feed.atom"/>
@@ -69,6 +69,14 @@
         </link>
         <updated>2019-09-22T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[ターミナルやコードエディタに最適なフォントをVSCodeに導入。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode で SSH 接続する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/</id>
+        <link href="https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/">
+        </link>
+        <updated>2019-10-25T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[VSCodeでSSH接続する方法について]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSCode で Unbound classpath container が出たときの対処法]]></title>

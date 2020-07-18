@@ -67,6 +67,14 @@
             "date_modified": "2019-09-22T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/",
+            "url": "https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/",
+            "title": "VSCode で SSH 接続する",
+            "summary": "VSCodeでSSH接続する方法について",
+            "image": "https://lunchbox.qnv.pw/assets/img/ssh-connection-with-vscode-1.png",
+            "date_modified": "2019-10-25T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/09/21/vscode-unbound-classpath-container/",
             "url": "https://lunchbox.qnv.pw/2019/09/21/vscode-unbound-classpath-container/",
             "title": "VSCode で Unbound classpath container が出たときの対処法",
