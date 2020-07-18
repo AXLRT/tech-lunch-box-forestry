@@ -4,17 +4,10 @@
         <title>tech lunch box</title>
         <link>https://lunchbox.qnv.pw/</link>
         <description></description>
-        <lastBuildDate>Sat, 18 Jul 2020 16:58:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2020 16:59:32 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://lunchbox.qnv.pw/feed.atom" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[gitで過去コミットのauthorとcommiterを変更する]]></title>
-            <link>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</link>
-            <guid>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</guid>
-            <pubDate>Mon, 17 Jun 2019 15:00:00 GMT</pubDate>
-            <description><![CDATA[githubにコミットしたらOSのユーザ名が出ちゃったときの話。]]></description>
-        </item>
         <item>
             <title><![CDATA[git push 時のコミッター名が Github アカウントと一致しない問題]]></title>
             <link>https://lunchbox.qnv.pw/2019/09/15/git-push-github/</link>
@@ -43,6 +36,13 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[gitで過去コミットのauthorとcommiterを変更する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</link>
+            <guid>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</guid>
+            <pubDate>Mon, 17 Jun 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[githubにコミットしたらOSのユーザ名が出ちゃったときの話。]]></description>
+        </item>
+        <item>
             <title><![CDATA[Spring bootでイベントハンドリングを実装する]]></title>
             <link>https://lunchbox.qnv.pw/2019/07/11/spring-boot/</link>
             <guid>https://lunchbox.qnv.pw/2019/07/11/spring-boot/</guid>
@@ -65,6 +65,15 @@
             <pubDate>Sat, 14 Sep 2019 15:00:00 GMT</pubDate>
             <description><![CDATA[超便利なChrome拡張「vimium」の紹介]]></description>
             <enclosure url="https://lunchbox.qnv.pw/assets/img/vimium_1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[VSCode で Cascadia code を利用する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/</link>
+            <guid>https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/</guid>
+            <pubDate>Sun, 22 Sep 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[ターミナルやコードエディタに最適なフォントをVSCodeに導入。]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/cascadia-code-vscode-1.png">
             </enclosure>
         </item>
         <item>

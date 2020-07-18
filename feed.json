@@ -5,13 +5,6 @@
     "feed_url": "https://lunchbox.qnv.pw/feed.json",
     "items": [
         {
-            "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
-            "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
-            "title": "gitで過去コミットのauthorとcommiterを変更する",
-            "summary": "githubにコミットしたらOSのユーザ名が出ちゃったときの話。",
-            "date_modified": "2019-06-17T15:00:00.000Z"
-        },
-        {
             "id": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
             "url": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
             "title": "git push 時のコミッター名が Github アカウントと一致しない問題",
@@ -36,6 +29,13 @@
             "date_modified": "2019-09-07T15:00:00.000Z"
         },
         {
+            "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "title": "gitで過去コミットのauthorとcommiterを変更する",
+            "summary": "githubにコミットしたらOSのユーザ名が出ちゃったときの話。",
+            "date_modified": "2019-06-17T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "url": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
             "title": "Spring bootでイベントハンドリングを実装する",
@@ -57,6 +57,14 @@
             "summary": "超便利なChrome拡張「vimium」の紹介",
             "image": "https://lunchbox.qnv.pw/assets/img/vimium_1.png",
             "date_modified": "2019-09-14T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/",
+            "url": "https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/",
+            "title": "VSCode で Cascadia code を利用する",
+            "summary": "ターミナルやコードエディタに最適なフォントをVSCodeに導入。",
+            "image": "https://lunchbox.qnv.pw/assets/img/cascadia-code-vscode-1.png",
+            "date_modified": "2019-09-22T15:00:00.000Z"
         },
         {
             "id": "https://lunchbox.qnv.pw/2019/09/21/vscode-unbound-classpath-container/",
