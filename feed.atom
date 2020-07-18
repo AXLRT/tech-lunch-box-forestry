@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lunchbox.qnv.pw/</id>
     <title>tech lunch box</title>
-    <updated>2020-07-18T17:25:59.713Z</updated>
+    <updated>2020-07-18T17:26:13.126Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://lunchbox.qnv.pw/"/>
     <link rel="self" href="https://lunchbox.qnv.pw/feed.atom"/>
@@ -45,6 +45,14 @@
         </link>
         <updated>2019-09-07T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[JWTについてわかったことメモ]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PWA の WebPush 機能を試した]]></title>
+        <id>https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/</id>
+        <link href="https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/">
+        </link>
+        <updated>2020-02-02T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[firebaseでweb push飛ばすハンズオン]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring bootでイベントハンドリングを実装する]]></title>
