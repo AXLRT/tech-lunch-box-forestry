@@ -5,6 +5,13 @@
     "feed_url": "https://lunchbox.qnv.pw/feed.json",
     "items": [
         {
+            "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "title": "gitで過去コミットのauthorとcommiterを変更する",
+            "summary": "githubにコミットしたらOSのユーザ名が出ちゃったときの話。",
+            "date_modified": "2019-06-17T15:00:00.000Z"
+        },
+        {
             "id": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
             "url": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
             "title": "git push 時のコミッター名が Github アカウントと一致しない問題",
@@ -27,13 +34,6 @@
             "summary": "JWTについてわかったことメモ",
             "image": "https://lunchbox.qnv.pw/assets/img/jwt-introduction-1-97138c8a-beae-4774-ac49-d038425739e5.png",
             "date_modified": "2019-09-07T15:00:00.000Z"
-        },
-        {
-            "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
-            "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
-            "title": "gitで過去コミットのauthorとcommiterを変更する",
-            "summary": "githubにコミットしたらOSのユーザ名が出ちゃったときの話。",
-            "date_modified": "2019-06-17T15:00:00.000Z"
         },
         {
             "id": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
